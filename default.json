@@ -1,5 +1,5 @@
 {
-	"baseUrl": "https://10.20.13.157:443/content/myvideo/",
+	"baseUrl": "https://10.20.13.157:8080/content/myvideo/",
 	"face": 6,
 	"row": 1,
 	"col": 1,
