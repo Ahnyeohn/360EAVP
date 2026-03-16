@@ -1,32 +1,18 @@
 {
-	"baseUrl": "",
+	"baseUrl": "https://10.20.13.157:443/content/myvideo/",
 	"face": 6,
 	"row": 1,
 	"col": 1,
-	"duration": 2,
-    "tiles": [
-		[[{"src": "", "width": "960", "height": "960", "x": 480, "y": 0, "z": 0, "rx": 0, "ry": 270, "rz": 0}]],
-		[[{"src": "", "width": "960", "height": "960", "x": -480, "y": 0, "z": 0, "rx": 0, "ry": 90, "rz": 0}]],
-		[[{"src": "", "width": "960", "height": "960", "x": 0, "y": 480, "z": 0, "rx": 90, "ry": 180, "rz": 0}]],
-		[[{"src": "", "width": "960", "height": "960", "x": 0, "y": -480, "z": 0, "rx": -90, "ry": 180, "rz": 0}]],
-		[[{"src": "", "width": "960", "height": "960", "x": 0, "y": 0, "z": -480, "rx": 0, "ry": 0, "rz": 0}]],
-		[[{"src": "", "width": "960", "height": "960", "x": 0, "y": 0, "z": 480, "rx": 0, "ry": 180, "rz": 0}]]
+	"duration": 1,
+	"tiles": [
+	  [[{"src":"face0/face0.mpd","width":"1440","height":"1440","x":720,"y":0,"z":0,"rx":0,"ry":270,"rz":0}]],
+	  [[{"src":"face1/face1.mpd","width":"1440","height":"1440","x":-720,"y":0,"z":0,"rx":0,"ry":90,"rz":0}]],
+	  [[{"src":"face2/face2.mpd","width":"1440","height":"1440","x":0,"y":720,"z":0,"rx":90,"ry":0,"rz":180}]],
+	  [[{"src":"face3/face3.mpd","width":"1440","height":"1440","x":0,"y":-720,"z":0,"rx":-90,"ry":0,"rz":180}]],
+	  [[{"src":"face4/face4.mpd","width":"1440","height":"1440","x":0,"y":0,"z":-720,"rx":0,"ry":0,"rz":0}]],
+	  [[{"src":"face5/face5.mpd","width":"1440","height":"1440","x":0,"y":0,"z":720,"rx":0,"ry":180,"rz":0}]]
 	],
 	"audio": "",
-	"edits":
-			{
-			"edit" : [
-							{
-							"frame" : 0,
-							"type": "",
-							"region_of_interest": [                                                                 
-													{
-															"rank": 0,
-															"ROI_theta": 0
-
-													}
-													]     
-							}
-			]
-		}
-}
+	"edits": { "edit": [] }
+  }
+  
